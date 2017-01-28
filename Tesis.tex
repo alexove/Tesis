@@ -1,38 +1,12 @@
-% ----------------------------------------------------------------------
-%
-%                          Tesis.tex
-%
-%----------------------------------------------------------------------
-%
-% Este fichero contiene el "documento maestro" del documento. Lo �nico
-% que hace es configurar el entorno LaTeX e incluir los ficheros .tex
-% que contienen cada secci�n.
-%
-%----------------------------------------------------------------------
-%
-% Los ficheros necesarios para este documento son:
-%
-%       TeXiS/* : ficheros de la plantilla TeXiS.
-%       Cascaras/* : ficheros con las partes del documento que no
-%          son cap�tulos ni ap�ndices (portada, agradecimientos, etc.)
-%       Capitulos/*.tex : cap�tulos de la tesis
-%       Apendices/*.tex: ap�ndices de la tesis
-%       constantes.tex: constantes LaTeX
-%       config.tex : configuraci�n de la "compilaci�n" del documento 
-%       guionado.tex : palabras con guiones
-%
-% Para la bibliograf�a, adem�s, se necesitan:
-%
-%       *.bib : ficheros con la informaci�n de las referencias
-%
-% ---------------------------------------------------------------------
-
 \documentclass[11pt,a4paper,oneside]{book}
 %% -----
 %% memoir
 %% -----
 \usepackage{enumerate}
 \usepackage[shortlabels]{enumitem}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{booktabs}
 %
 % Definimos  el   comando  \compilaCapitulo,  que   luego  se  utiliza
 % (opcionalmente) en config.tex. Quedar�a  mejor si tambi�n se definiera
