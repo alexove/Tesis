@@ -1,12 +1,15 @@
 %---------------------------------------------------------------------
 %
-%                          Cap\'itulo 2
+%                          Capítulo 2
 %
 %---------------------------------------------------------------------
 
 \chapter{Marco te'orico}
 
 \section{Antecedentes de la Investigaci'on}
+
+\subsection{Antecedentes Nacionales}
+
 \cite{jrodriguez} publico un articulo denominado ``\emph{Beneficios del modelo As a
 service en las pymes}'' cuyo objetivo fue realizar una revisi\'on de conceptos
 basicos de la computaci\'on en la nube en especial de los modelos de despliegue
@@ -39,7 +42,10 @@ continuaci\'on:
           de beneficios dirigidos al crecimiento de su negocio.
 \end{enumerate}
 
-El articulo en menci\'on servira como guia para la construcci\'on
+El articulo en menci\'on servir\'a como gu\'ia para la difusi\'on de estas herramientas
+y sus ventajas a los empresarios, as\'i como usar los criterios de selecci\'on
+sugeridos para seleccionar las herramientas de computaci\'on en la nube m\'as
+adecuadas.
 
 El segundo trabajo de investigaci\'on que se tomo como antecedente lo realizo
 \citep{jcampos} quien desarrollo el trabajo denominado ``\emph{INFORM\'ATICA EN LA NUBE
@@ -185,13 +191,55 @@ siguientes conclusiones:
           con poca esfuerzo y sin inversiones de capital.
 \end{enumerate}
 
-El trabajo mencionado servira para evitar las y
+El trabajo mencionado servir\'a como referencia para la elaboraci\'on de los instrumentos
+de medici\'on ya que se trata de un caso muy similar al presente trabajo pero limitado
+a una sola empresa.
 
+%-----------------
 \subsection{Antecedentes Internacionales}
+
+\cite{diaz} desarroll\'o el trabajo ``\emph{EL CLOUD COMPUTING EN LA PYME ESPA\~NOLA}''
+con el objetivo de analizar las posibilidades de uno de los productos de la empresa
+Intelligence Partner, que consiste en una aplicación de gestión de activos inmobiliarios, y
+para ello se puso en contexto el entorno de las Pymes y más en concreto el
+sector inmobiliario español con la intención de ver las posibilidades de venta
+que tiene esta aplicación en la nube, llegando a concluir que a pesar beneficios
+destacados a lo largo de todo el documento, el cloud computing es una tecnología
+relativamente nueva. Hay varias cuestiones que deben tenerse en cuenta antes cambiar
+todos los sistemas tradicionales de la pequeña empresa por la computación en la nube.
+A continuación presentamos algunos aspectos que deben considerarse antes de que una
+empresa decida adaptar sus sistemas a la nube:
+\begin{itemize}
+    \item Es importante tener un profundo conocimiento de la infraestructura de TI
+            existente. Se recomienda a las empresas tener en cuenta cuatro puntos
+            antes de tomar una decisión, el tamaño de las infraestructuras de TI, los
+            patrones de uso, la sensibilidad de los datos y lo importante que son las
+            operaciones informáticas para la empresa.
+    \item Muchos analistas han señalado el problema del monopolio a la hora de
+            ofrecer servicios de cloud computing. La cuestión de la dependencia de
+            un proveedor puede tener graves repercusiones para las pequeñas
+            empresas en caso de pérdida de datos. A medida que los servicios se
+            ofrecen a través de software propietario y la falta de normas hace de la
+            portabilidad de una de las principales preocupaciones.
+    \item Se espera que la nube maneje una gran cantidad de datos. Por lo tanto,
+            es importante entender las cuestiones clave en cuanto a la seguridad y
+            los riesgos potenciales. La revisión de los protocolos de seguridad en
+            varios modelos de cloud revela la necesidad de un marco estandarizado.
+            Por ejemplo, con SaaS, una de las principales preocupaciones es la falta
+            de control y la total dependencia del proveedor para garantizar las
+            medidas de seguridad adecuadas. Otra cuestión es garantizar la
+            seguridad, la integridad y la persistencia de los datos durante la
+            transferencia de datos dentro y el mantenimiento de la confidencialidad
+            de los datos de los clientes
+\end{itemize}
+
+Este trabajo servir\'a para elaborar el dise\~no operativo concreto para la implementaci\'on
+de cada herramienta en las MiPYME del Centro de Desarrollo Empresarial del Cusco.
+
 \cite{Salauddin} desarrollo el trabajo denominado ``\emph{A study on cloud
 computing adoption of small and medium enterprises}'' con el objetivo de proveer
 una visi\'on de los efectos, riesgos percibidos, requerimientos y beneficios de la
-adopci\'on de las herramientas de la computaci\'on en la nube en general. Además
+adopci\'on de las herramientas de la computaci\'on en la nube en general. Adem\'as
 de investigar los beneficios y oportunidades que los atributos de la computaci\'on
 en la nube ofrecen como la flexibilidad, despliegue rapido y en particular los
 costos que pueden ayudar a la adopci\'on de estas herramientas. Las conclusiones
@@ -200,10 +248,118 @@ obtenidas son las siguientes:
 Por otro lado, \citep{brimbela} realizo el trabajo: ``\emph{Adoption of Cloud
 Computing by SME'S in Emerging Markets (Brazil)}''
 
-Este es el ultimo \citep{saleem}
-\subsection{Antecedentes Nacionales}
+Este es el ultimo \citep{saleem} y este es otro
 
 \section{Bases Te'oricas}
+
+\subsection{Computaci\'on en la nube}
+
+\subsubsection{Definici\'on de Computaci\'on en la nube}
+``\emph{Cloud computing es un modelo que permite el acceso bajo demanda y a trav\'es de
+la red a un conjunto de recursos compartidos y configurables (como redes,
+servidores, capacidad de almacenamiento, aplicaciones y servicios) que pueden
+ser r\'apidamente asignados y liberados con una m\'inima gesti\'on por parte del
+proveedor del servicio}''\citep{cierco}.
+
+Ya que la computaci\'on en la nube permite el acceso a los recursos bajo demanda,
+es decir en el momento que se necesite, tambi\'en es factible que estos servicios
+sean cobrados seg\'un el tiempo de uso de los mismos de forma transparente y fiable.
+
+Tambi\'en permite la expansi\'on o reducci\'on de las capacidades de estos
+recursos segun la necesidad del momento de las aplicaciones o servicios, a lo
+que le llama ``Elasticidad''.
+
+\subsubsection{Caracteristicas fundamentales de la Computaci\'on en la Nube}
+\cite{nist} indican que las caracter\'isticas fundamentales necesarias para poder
+mantener un modelo de computo en la nube comprenden:
+\begin{itemize}
+    \item \textbf{Autoservicio bajo demanda.-} La tecnolog\'ia en la nube
+          proporciona recursos de una forma automatizada los usuarios pueden
+          agregar o quitar servicios basados en sus necesidades y requerimientos
+          del negocio.
+    \item \textbf{Elasticidad rapida.-} Consiste en dotar a un servicio de mayores
+          recursos de computo para cubrir sus necesidades y as\'i mismo regresar
+          a estados anteriores cuando ya no requiera de estos recursos.
+    \item \textbf{Agrupaci\'on de recursos.-} La arquitectura de la nube tiene la capacidad
+          de creaci\'on de recursos compartidos que hacen que la nube sea
+          econ\'omicamente viable.
+    \item \textbf{Facturaci\'on y m\'etricas de uso de servicio.-} Los usuarios
+          pagan por los recursos que han contratado o por el uso de recursos, y
+          los entornos de cloud computing deben de incluir mecanismos de monitoreo
+          de uso de recursos para la facturaci\'on y/o mejora del servicio.
+    \item \textbf{Amplio acceso a la red.-} Las capacidades est\'an disponibles
+          a trav\'es de la red y se accede a trav\'es de mecanismos est\'andar
+          que promueven el uso de plataformas de clientes finas o gruesas
+          heterog\'eneas (por ejemplo, tel\'efonos m\'oviles, tablets, port\'atiles
+          y estaciones de trabajo).
+\end{itemize}
+%--------------------------------------------------
+\subsubsection{Tipos de nubes por el modelo de despliegue.}
+\cite{nist} indican que los tipos de nubes por el modelo de despliegue son:
+\begin{enumerate}
+    \item \textbf{Nube privada}, en  la  que  los  servicios  cloud  no  son
+          ofrecidos  al  p\'ublico  en  general. Pueden distinguirse a su vez dos
+          situaciones:
+          \begin{enumerate}[a.]
+              \item \textbf{Cloud propia}. La infraestructura es \'entegramente gestionada
+                    por una organizaci\'on.
+              \item \textbf{Cloud compartida}. La  infraestructura  es  compartida  por
+                    varias organizaciones.
+          \end{enumerate}
+    \item \textbf{Cloud p\'iublica}. La  infraestructura  es  operada  por  un
+          proveedor  que  ofrece  servicios al p\'iublico en general.
+    \item \textbf{Cloud h\'ibrida}. Resultado de la combinaci\'on de dos o m\'as clouds
+          individuales que, pudiendo ser a su vez propias, compartidas o p\'iblicas,
+          permite portar datos o aplicaciones entre ellas.
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \captionsetup{justification=centering}
+    \includegraphics[width=0.7\textwidth]{Imagenes/Bitmap/cloud0}
+    \caption{Modelos de despliegue de la computaci\'on en la nube}
+    \label{fig:cloud1}
+\end{figure}
+
+\subsubsection{Tipos de nubes por el modelo de servicio}
+Seg\'un \cite{nist} se ofrecen tres modelos de servicio:
+\begin{enumerate}
+    \item \textbf{Software as a Service - SaaS}.- Al usuario se le ofrece la
+          capacidad de que las aplicaciones  que  su  proveedor  le  suministra
+          corran  en  una  infraestructura cloud, siendo las aplicaciones accesibles
+          a trav\'es de, por ejemplo, un navegador web como en el caso del webmail,
+          que es posiblemente el ejemplo m\'as representativo, por lo extendido,
+          de este modelo de servicio. El usuario carece de cualquier control sobre
+          la infraestructura o sobre las propias aplicaciones, excepci\'on hecha
+          de las posibles configuraciones de usuario o personalizaciones que se
+          le permitan.
+    \item \textbf{Platform as a Service}.- Al usuario se le permite desplegar
+          aplicaciones propias  (ya  sean  adquiridas  o  desarrolladas  por  el
+          propio  usuario)  en  la  infraestructura cloud de  su  proveedor, que
+          es  quien  ofrece  la  plataforma  de desarrollo y las herramientas de
+          programaci\'on. En este caso, es el usuario quien mantiene el control de
+          la aplicaci\'on, aunque no de toda la infraestructura subyacente.
+    \item \textbf{Infrastructure as a Service}.- El proveedor ofrece al usuario
+          recursos como capacidad  de  procesamiento,  de  almacenamiento,  o
+          comunicaciones, que el usuario puede utilizar para ejecutar cualquier
+          tipo de software, desde sistemas operativos hasta aplicaciones.
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \captionsetup{justification=centering}
+    \includegraphics[width=0.7\textwidth]{Imagenes/Bitmap/cloud1}
+    \caption{Modelos de servicio de la computaci\'on en la nube con algunos proveedores en cada tipo.}
+    \label{fig:cloud1}
+\end{figure}
+
+\subsubsection{Beneficios de la computaci\'on en la nube}
+``\emph{Los beneficios del cloud son muy relevantes desde distintos puntos de vista.
+Para la econom\'ia global, el traslado de las econom\'ias de escala de los
+proveedores a las empresas usuarias reduce los costes globales en TI, elimina
+las barreras de entrada para nuevos actores y dinamiza la econom\'ia, promoviendo
+la aparici\'on de nuevos modelos de negocio y lineas de actividad, facilitando
+por la creaci\'on de empresas y de empleo}''\citep{cierco}.
 
 %\subsection{Definici'on conceptual}
 
@@ -236,7 +392,8 @@ Desarrollo Empresarial del Cusco.
 \subsection{Identificaci'on de variables}
 
 \begin{enumerate}[a.]
-    \item Gesti\'on Empresarial
+    \item Uso de herramientas de computaci\'on en la nube.
+    \item Gesti\'on Empresarial.
 \end{enumerate}
 
 \subsection{Operacionalizaci'on de variables}
@@ -249,11 +406,18 @@ Desarrollo Empresarial del Cusco.
             \hline
             \thead{Variables} & \thead{Definici\'on \\ Conceptual} & \thead{Definici\'on \\ Operacional} & \thead{Dimensiones} & \thead{Indicadores} \\ \hline
             % Primera fila
+            Uso de herramientas de computaci\'on en la nube &
+            \emph{trabajo en progreso} &
+            \emph{trabajo en progreso} &
+            \emph{trabajo en progreso} &
+            \emph{trabajo en progreso} \\
+            \hline
+            % Segunda fila
             Gesti\'on Empresarial &
-            esto debe ser un texto algo largo para ver como funciona todo esto &
-            esto debe ser un texto algo largo para ver como funciona todo esto &
-            esto debe ser un texto algo largo para ver como funciona todo esto &
-            esto debe ser un texto algo largo para ver como funciona todo esto \\
+            \emph{trabajo en progreso} &
+            \emph{trabajo en progreso} &
+            \emph{trabajo en progreso} &
+            \emph{trabajo en progreso} \\
             \hline
         \end{tabular}
         Fuente: Elaboraci\'on propia.
