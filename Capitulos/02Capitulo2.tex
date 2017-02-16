@@ -676,10 +676,10 @@ decir mejoran al crecer de valor.
 
 \begin{figure}[t]
     \begin{center}
-        \includegraphics[width=0.7\textwidth]%
-        {Imagenes/Bitmap/valor}
+        \includegraphics[width=1.0\textwidth]%
+        {Imagenes/Vectorial/valor}
         \caption{Esquema de valor de mercado}
-        \label{i_valor}
+        \label{fig:indicadores_valor_mercado}
     \end{center}
 \end{figure}
 
@@ -688,36 +688,99 @@ Seg\'un \cite{cruz} la efectividad, significa cuantificaci\'on del logro de la m
 tambi\'en es sin\'onimo de eficacia y se le define como \emph{Capacidad de lograr el
 efecto que se desea}. Los indicadores de eficacia o efectividad, tienen que ver
 con hacer realidad un intento o prop\'osito, y est\'an relacionados con el cumplimiento
-al ciento por ciento de los objetivos planteados. En este sentido se pueden dise\~nar
-los siguientes indicadores de efectividad (no son \'unicos):
+al ciento por ciento de los objetivos planteados.
+
+\cite{cruz} ubica a la efectividad respecto a los indicadores del negocio con base
+en el esquema de valor de mercado de la figura \ref{fig:indicadores_valor_mercado}
+como parte de la Rentabilidad, tal como se puede ver en la figura \ref{fig:efectividad}
+
+Adem\'as \cite{cruz} se\~nala que se pueden dise\~nar indicadores de efectividad
+como el de las formulas \ref{eq:calc_efectividad_instalaciones} y \ref{eq:calc_efectividad_ventas}
+pero \'estos no son \'unicos.
 
 \begin{figure}[t]
     \begin{center}
-        \includegraphics[width=1.0\textwidth]%
-        {Imagenes/Bitmap/efectividad01}
+        \includegraphics[width=0.8\textwidth]%
+        {Imagenes/Vectorial/efectividad}
         \caption{Efectividad}
+        \label{fig:efectividad}
     \end{center}
 \end{figure}
 
 \begin{equation}\label{eq:calc_efectividad_instalaciones}
-{{Efectividad_{instalaciones}}} = \frac{Vol_{producido}}{Vol_{programado}} \times{100}
+\text{Efectividad en las instalaciones} = \frac{\text{Vol}_{\text{producido}}}{\text{Vol}_{\text{programado}}} \times{100}
 \end{equation}
 
 \begin{equation}\label{eq:calc_efectividad_ventas}
-{{Efectividad_{ventas}}} = \frac{Vol_{vendido}}{Vol_{planificado}} \times{100}
+\text{Efectividad en ventas} = \frac{\text{Vol}_{\text{vendido}}}{\text{Vol}_{\text{planificado}}} \times{100}
 \end{equation}
+
+\cite{cruz} agrega la especificaci\'on de los indicadores de efectividad mostradolos
+en la tabla \ref{t:efectividad}.
+
+\begin{table}
+    \begin{tabular}{|p{8cm}|p{5cm}|}
+        \hline
+        \thead{Descripci\'on del Indicador} & \thead{Variables fundamentales} \\ \hline
+        \begin{minipage}{3in}
+            \textbf{Efectividad en el uso de instalaciones}\\
+            Es el grado de cumplimiento del programa de
+            producci\'on. Este factor puede estar afectado por
+            causas imputadas tanto a los equipos de producci\'on, como a los que administran el proceso. El
+            indicador es medido porcentualmente ( \%).
+        \end{minipage}
+         &
+        \begin{minipage}{2in}
+            \vskip 4pt
+            \begin{enumerate}
+                \item Disponibilidad de las instalaciones.
+                \item Eficiencia de los equipos.
+                \item Efectividad en la logistica y transporte.
+            \end{enumerate}
+            \vskip 4pt
+        \end{minipage}
+        \\
+        \hline
+        \begin{minipage}{3in}
+            \textbf{Efectividad en las ventas}\\
+            Es el grado de cumplimiento del plan de ventas, en t\'erminos de
+            volumen despachado, tanto para el mercado nacional como para
+            exportaci\'on, as\'i como el total. El indicador es medido
+            porcentualmente (\%).
+        \end{minipage}
+         &
+        \begin{minipage}{2in}
+            \vskip 4pt
+            \begin{enumerate}
+                \item Efectividad en el uso de las instalaciones.
+                \item Eficiencia en la gesi\'on de comercializaci\'on y ventas.
+            \end{enumerate}
+            \vskip 4pt
+        \end{minipage}
+        \\
+        \hline
+    \end{tabular}
+    \caption{Especificaci\'on de los indicadores de efectividad}
+    \label{t:efectividad}
+\end{table}
 
 \subsubsection{Indicador de eficiencia}
 Seg\'un \cite{cruz} la eficiencia es la capacidad administrativa de producir el
 m\'aximo de resultados con el m\'inimo de recursos, el m\'inimo de energ\'ia y en el
-m\'inimo de tiempo posible. Entre los indicadores de eficiencia se pueden
-mencionarlos siguientes:
+m\'inimo de tiempo posible.
+
+\cite{cruz}, tambien muestra la relacion de la eficiencia y la rentabilidad de la
+figura \ref{fig:indicadores_valor_mercado} por medio de la figura \ref{fig:eficiencia}.
+
+Adem\'as \cite{cruz} indica que entre los indicadores de eficiencia se pueden
+mencionar los de las ecuaciones \ref{eq:calc_eficiencia_capacidad_instalada}, \ref{eq:calc_eficiencia_capacidad_instalada}
 
 \begin{figure}[t]
     \begin{center}
-        \includegraphics[width=1.0\textwidth]%
-        {Imagenes/Bitmap/eficiencia01}
+        \includegraphics[width=0.7\textwidth]%
+        {Imagenes/Vectorial/eficiencia}
         \caption{Eficiencia}
+        \label{fig:eficiencia}
     \end{center}
 \end{figure}
 
@@ -729,6 +792,54 @@ mencionarlos siguientes:
     \text{Nivel de inventarios}=\frac{\text{Costo del inventario}}{\text{Ventas netas}} \times{100}
 \end{equation}
 
+Adem\'as \cite{cruz} muestra la especificaci\'on del indicador mencionando su
+descripci\'on y sus variables en la tabla \ref{t:eficiencia}.
+
+\begin{table}
+    \begin{tabular}{|p{5cm}|p{8cm}|}
+        \hline
+        \thead{Descripci\'on del Indicador} & \thead{Variables fundamentales} \\ \hline
+        \begin{minipage}{2in}
+            \textbf{Uso de la capacidad instalada}\\
+            Indica el uso racional de las instalaciones productivas, con base en
+            la capacidad nominal o instalada. El indicador es medido porcentualmente (\%).
+        \end{minipage}
+         &
+        \begin{minipage}{3in}
+            \vskip 4pt
+            \begin{enumerate}
+                \item Disponibilidad de las instalaciones.
+                \item Eficiencia en el mantenimiento.
+                \item Efectividad en el transporte.
+                \item Capacidad de las instalaciones.
+            \end{enumerate}
+            \vskip 4pt
+        \end{minipage}
+        \\
+        \hline
+        \begin{minipage}{2in}
+            \textbf{Nivel de inventarios}\\
+            Permite conocer el uso racional del capital invertido en inventarios
+            con relaci\'on a las ventas netas. El indicador es medido porcentualmente (\%).
+        \end{minipage}
+         &
+        \begin{minipage}{3in}
+            \vskip 4pt
+            \begin{enumerate}
+                \item Eficiencia en el uso de los insumos.
+                \item Determinaci\'on optima de los niveles de reposici\'on.
+                \item Efectividad en el pago a proveedores.
+                \item Eficiencia en el tiempo de compras.
+            \end{enumerate}
+            \vskip 4pt
+        \end{minipage}
+        \\
+        \hline
+    \end{tabular}
+    \caption{Especificaci\'on de los indicadores de eficiencia}
+    \label{t:eficiencia}
+\end{table}
+
 \subsubsection{Indicador de calidad}
 Seg\'un \cite{cruz} el concepto t\'ecnico de calidad representa m\'as bien una forma
 de hacer las cosas en las que, fundamentalmente, predominan la preocupaci\'on por
@@ -739,19 +850,46 @@ siguientes:
 
 \begin{figure}[t]
     \begin{center}
-        \includegraphics[width=1.0\textwidth]%
-        {Imagenes/Bitmap/calidad01}
+        \includegraphics[width=0.7\textwidth]%
+        {Imagenes/Vectorial/calidad}
         \caption{Calidad}
     \end{center}
 \end{figure}
 
 \begin{equation}\label{eq:rendimiento_calidad}
-    Rendimiento_{Calidad}=\frac{Vol_{\text{producci\'on conforme}}}{Vol_{\text{total producido}}} \times{100}
+    \text{Rendimiento de calidad}=\frac{\text{Vol}_{\text{producci\'on conforme}}}{\text{Vol}_{\text{total producido}}} \times{100}
 \end{equation}
 
 \begin{equation}\label{eq:calidad_uso}
-    Calidad_{uso}=\frac{\text{Volumen reclamado por calidad (procedente)}}{\text{Volumen total de ventas}} \times{100}
+    \text{Calidad de uso}=\frac{\text{Volumen reclamado por calidad (procedente)}}{\text{Volumen total de ventas}} \times{100}
 \end{equation}
+
+\begin{table}
+    \begin{tabular}{|p{5cm}|p{8cm}|}
+        \hline
+        \thead{Descripci\'on del Indicador} & \thead{Variables fundamentales} \\ \hline
+        \begin{minipage}{2in}
+            \textbf{Relaci\'on deuda/calidad}\\
+            Mide el nivel de apalancamiento del negocio, con recursos externos
+            con base en el patrimonio. El indicador es medido porcentualmente (\%).
+        \end{minipage}
+         &
+        \begin{minipage}{3in}
+            \vskip 4pt
+            \begin{enumerate}
+                \item Efectividad en el uso de las instalaciones.
+                \item Tiempo efectivo de trabajo.
+                \item Cumplimiento plan de desarrollo y capacitaci\'on.
+                \item Eficiencia en la gesti\'on de calidad.
+            \end{enumerate}
+            \vskip 4pt
+        \end{minipage}
+        \\
+        \hline
+    \end{tabular}
+    \caption{Especificaci\'on de los indicadores de calidad}
+    \label{t:calidad}
+\end{table}
 
 \subsubsection{Indicador de productividad}
 Seg\'un \cite{cruz} los indicadores de productividad son los siguientes:
@@ -759,13 +897,13 @@ Seg\'un \cite{cruz} los indicadores de productividad son los siguientes:
 \begin{figure}[t]
     \begin{center}
         \includegraphics[width=1.0\textwidth]%
-        {Imagenes/Bitmap/productividad01}
+        {Imagenes/Vectorial/productividad}
         \caption{Productividad}
     \end{center}
 \end{figure}
 
 \begin{equation}\label{eq:productividad_mano_obra}
-    \text{Productividad}_{\text{mano de obra}}=\frac{Vol_{\text{producci\'on conforme}}}{\text{Horas hombre trabajadas}}
+    \text{Productividad de mano de obra}=\frac{\text{Vol}_{\text{producci\'on conforme}}}{\text{Horas hombre trabajadas}}
 \end{equation}
 
 \begin{equation}\label{eq:productividad_costo_unitario}
@@ -776,13 +914,55 @@ Seg\'un \cite{cruz} los indicadores de productividad son los siguientes:
     \text{Productividad del capital} = \frac{\text{Volumen de producci\'on conforme}}{\text{Activo total promedio}}
 \end{equation}
 
+\begin{table}
+    \begin{tabular}{|p{7cm}|p{7cm}|}
+        \hline
+        \thead{Descripci\'on del Indicador} & \thead{Variables fundamentales} \\ \hline
+        \begin{minipage}{2.5in}
+            \textbf{Rentabilidad total}\\
+            Es la rentabilidad medida en t\'erminos de la capacidad de generar
+            utilidades con los activos disponibles. El indicador es medido
+            porcentualmente (\%). \\
+            \textbf{Margen neto}\\
+            Mide la rentabilidad en funci\'on de las ventas generadas. El
+            indicador es medido porcentualmente (\%). \\
+            \textbf{Rotaci\'on del activo} \\
+            Mide las veces que en un a\~no se mueve el activo de la empresa y
+            muestra la intensidad con que los activos totales se est\'an utilizando.\\
+            \textbf{Margen de operaciones} \\
+            Mide las ganancias en operaciones en funci\'on de las ventas generadas,
+            sin tomar en cuenta la carga financiera y los impuestos. El indicador
+            es medido porcentualmente (\%).
+        \end{minipage}
+         &
+        \begin{minipage}{2.5in}
+            \vskip 4pt
+            \begin{enumerate}
+                \item Cumplimiento del Plan de Ventas.
+                \item Efectividad en el Plan de Producci\'on.
+                \item Cumplimiento en la ejecuci\'on presupuestaria.
+                \item Eficiencia en el uso de los recursos.
+                \item Eficiencia en la gesti\'on de comercializaci\'on y ventas.
+                \item Control efectivo de los activos y pasivos.
+                \item Administraci\'on de los programas de reducci\'on de costos.
+                \item Eficiencia en la gesti\'on de calidad.
+            \end{enumerate}
+            \vskip 4pt
+        \end{minipage}
+        \\
+        \hline
+    \end{tabular}
+    \caption{Especificaci\'on de los indicadores de rentabilidad}
+    \label{t:rentabilidad}
+\end{table}
+
 \subsubsection{Indicador de apalancamiento}
 Seg\'un \cite{cruz} los indicadores de apalancamiento son los siguientes:
 
 \begin{figure}[t]
     \begin{center}
         \includegraphics[width=1.0\textwidth]%
-        {Imagenes/Bitmap/apalancamiento01}
+        {Imagenes/Vectorial/apalancamiento}
         \caption{Apalancamiento}
     \end{center}
 \end{figure}
@@ -817,20 +997,94 @@ Seg\'un \cite{cruz} los indicadores de rentabilidad son:
 \begin{equation}\label{eq:margen_operaciones}
     \text{Margen operaciones} = \frac{\text{Utilidad en operaciones}}{\text{Ventas netas}}\times{100}
 \end{equation}
-%\subsubsection{Riesgo}
-%\subsubsection{Competitividad}
+
+\begin{table}
+    \begin{tabular}{|p{5cm}|p{7.5cm}|}
+        \hline
+        \thead{Descripci\'on del Indicador} & \thead{Variables fundamentales} \\ \hline
+        \begin{minipage}{2in}
+            \textbf{Riesgo operativo}\\
+            Posibilidad de no estar en capacidad de cubrir los costos de operaci\'on.
+            Tambi\'en mide el peligro de no ganar. \\
+            \textbf{Riesgo financiero}\\
+            Posibilidad de no estar en condiciones de cubrir los costos de financieros,
+            o sea mide el peligro a que est\'a expuesta la empresa de no pagar sus deudas. \\
+        \end{minipage}
+         &
+        \begin{minipage}{3in}
+            \vskip 4pt
+            \begin{enumerate}
+                \item Cumplimiento del Plan de Ventas.
+                \item Efectividad en el Plan de Producci\'on.
+                \item Cumplimiento en la ejecuci\'on presupuestaria.
+                \item Eficiencia en el uso de los recursos.
+                \item Eficiencia en la gesti\'on de comercializaci\'on y ventas.
+                \item Administraci\'on de los programas de reducci\'on de costos.
+                \item Eficiencia en la gesti\'on de calidad.
+            \end{enumerate}
+            \vskip 4pt
+        \end{minipage}
+        \\
+        \hline
+    \end{tabular}
+    \caption{Especificaci\'on de los indicadores de riesgo}
+    \label{t:riesgo}
+\end{table}
+
+\subsubsection{Indicadores de riesgo}
+\cite{cruz} indica que si la empresa no cotiza en la bolsa y sus acciones no tienen
+variabilidad estad\'istica, por supuesto, no se tienen los soportes para calcular
+los indicadores de riesgo, pero no implica que no tengan riesgos, por lo tanto
+es posible establecer un indicador de riesgo empresarial, entendiendo por este
+la posibilidad de que la organizaci\'on no pueda cubrir sus costos de operaci\'on
+y/o financieros.
+
+En este sentido \cite{cruz} se\~nala que el indicador tiene su base en las
+utilidades antes de intereses e impuestos que pueda tener la empresa, a fin de
+cubrir sus costos de operaci\'on (fijos y variables) y las utilidades antes de
+impuestos, a fin de cubrir sus costos financieros.
+
+En este sentido \cite{cruz} distingue dos tipos de riesgos:
+\begin{itemize}
+    \item \emph{RIESGO OPERATIVO}, posibilidad de no estar en capacidad de cubrir
+          los costos de operaci\'on. Tambi\'en mide el peligro de no ganar en las
+          operaciones.
+    \item \emph{RIESGO FINANCIERO}, posibilidad de no estar en condiciones de
+          cubrir los costos de financieros, o sea mide el peligro a que est\'a
+          expuesta la empresa de no pagar sus deudas.
+\end{itemize}
+
+Dado esto \cite{cruz} establece indicadores de riesgo operativo y financiero en las
+formulas \ref{eq:riesgo1} y \ref{eq:riesgo2}.
+
+\begin{equation}\label{eq:riesgo1}
+    \text{Riesgo operativo} = \text{Utilidad en operaciones} \geq 0
+\end{equation}
+
+\begin{equation}\label{eq:riesgo2}
+    \text{Riesgo financiero} = \text{Utilidad antes de impuestos} \geq 0
+\end{equation}
+
+\subsubsection{Indicadores de competitividad}
+Seg\'un \cite{cruz} se entiende por competitividad a la capacidad de una organizaci\'on
+p\'ublica o privada, lucrativa o no, de mantener sistem\'aticamente ventajas comparativas
+que le permitan alcanzar, sostener y mejorar una determinada posici\'on en el entorno
+socioecon\'omico.
+
+\cite{cruz} define los indicadores en las formulas \ref{eq:competitividad1} y
+\ref{eq:competitividad2}.
+
+\begin{equation}\label{eq:competitividad1}
+    \text{Comp. CU del producto} = \frac{\text{Costo producto propio}}{\text{Costo producto competidor}} \times{100}
+\end{equation}
+
+\begin{equation}\label{eq:competitividad2}
+    \text{Var. participaci\'on en mercado} = \frac{\text{Participaci\'on a\~no anterior}}{\text{Participaci\'on a\~no actual}}\text{100}
+\end{equation}
+
 %\subsubsection{Liquidez}
 %\subsubsection{mipyme}
 %\subsubsection{emprendimiento}
-
-\subsubsection{Organizaci\'on}
-\cite{koontz} define a la organizaci\'on como un grupo de personas que trabajan en
-conjunto para crear valor agregado. En organizaciones lucrativas dicho valor agregado
-se traduce en utilidades; en organizaciones no lucrativas, como las caritativas,
-puede ser la satisfacci\'on de las necesidades. Por su parte, \citep{chiavenato}
-indica que se denominan organizaciones formales aquellas que tienen nirmas y reglamentos
-escritos y estructuras de puestos y jerarquias que rigen las relaciones entre
-individuos u \'organos componentes.
 
 \section{Hip'otesis}
 
@@ -863,107 +1117,35 @@ Desarrollo Empresarial del Cusco.
     \item Gesti\'on Empresarial.
 \end{enumerate}
 
+%-----------------
 \subsection{Operacionalizaci'on de variables}
+    \begin{sidewaystable}[htbp]
+        \caption{Operacionalizaci\'on de variables}
+        \label{t_sim}
+        \centering
+            \begin{tabular}{|p{2cm}|p{3cm}|p{3cm}|p{4cm}|p{4cm}|}
+                \hline
+                \thead{Variables} & \thead{Definici\'on \\ Conceptual} & \thead{Definici\'on \\ Operacional} & \thead{Dimensiones} & \thead{Indicadores} \\ \hline
+                % Primera fila
+                Uso de herramientas de computaci\'on en la nube &
+                Modelo que permite el acceso bajo demanda y a trav\'es de
+                la red a un conjunto de recursos compartidos y configurables que pueden
+                ser r\'apidamente asignados y liberados con una m\'inima gesti\'on por parte del
+                proveedor del servicio \citep{cierco} &
+                \emph{trabajo en progreso} &
+                \emph{trabajo en progreso} &
+                \emph{trabajo en progreso} \\
+                \hline
+                % Segunda fila
+                Gesti\'on Empresarial &
+                Conjunto de decisiones y acciones que llevan al logro de objetivos
+                previamente establecidos. \citep{beltran} &
+                \emph{trabajo en progreso} &
+                \emph{trabajo en progreso} &
+                \emph{trabajo en progreso} \\
+                \hline
+            \end{tabular}
+            %Fuente: Elaboraci\'on propia.
+    \end{sidewaystable}
 %-----------------
-\begin{table}[htbp]
-    \caption{Operacionalizaci\'on de variables}
-    \label{t_sim}
-    \centering
-        \begin{tabular}{|p{3cm}|p{2cm}|p{2cm}|p{3cm}|p{3cm}|}
-            \hline
-            \thead{Variables} & \thead{Definici\'on \\ Conceptual} & \thead{Definici\'on \\ Operacional} & \thead{Dimensiones} & \thead{Indicadores} \\ \hline
-            % Primera fila
-            Uso de herramientas de computaci\'on en la nube &
-            \emph{trabajo en progreso} &
-            \emph{trabajo en progreso} &
-            \emph{trabajo en progreso} &
-            \emph{trabajo en progreso} \\
-            \hline
-            % Segunda fila
-            Gesti\'on Empresarial &
-            \emph{trabajo en progreso} &
-            \emph{trabajo en progreso} &
-            \emph{trabajo en progreso} &
-            \emph{trabajo en progreso} \\
-            \hline
-        \end{tabular}
-        Fuente: Elaboraci\'on propia.
-\end{table}
-%-----------------
-\section{Definici'on de t'erminos b'asicos}
-\begin{tabular}{r|l}
-  Column 1 content &
-  \begin{minipage}[t]{0.4\textwidth}
-    \begin{itemize}
-    \item Column 2 content 1
-    \item Column 2 content 2
-    \end{itemize}
-  \end{minipage}
-\end{tabular}
-
-
-\begin{table}[htbp]
-    \caption{Especificaci\'on del indicador de efectividad}
-    \label{t_sim}
-    \centering
-        \begin{tabular}{|p{8cm}|p{6cm}|}
-            \hline
-            \thead{Descripci\'on del Indicador} & \thead{Variables fundamentales} \\ \hline
-            % Primera fila
-            \textbf{EFECTIVIDAD EN EL USO DE LAS INSTALACIONES}\\
-            Es el grado de cumplimiento del programa de producci\'on. Este factor
-            puede estar afectado por causas imputadas tanto a los equipos de
-            producci\'on, como a los que administran el proceso. El indicador es
-            medido porcentualmente (\%). &
-            \begin{itemize}
-                \item Disponibilidad de las instalaciones.
-                \item Eficiencia de los equipos.
-                \item Efectividad en la log\'istica y el transporte.
-            \end{itemize} \\             \hline
-            % Segunda fila
-            \textbf{EFECTIVIDAD EN LAS VENTAS} \\
-            Es el grado de cumplimiento del plan de ventas, en t\'erminos de volumen
-            despachado, tanto para el mercado nacional como para exportaci\'on,
-            as\'i como el total. El indicador es medido porcentualmente (\%). &
-            \begin{itemize}
-                \item Efectividad en el uso de las instalaciones.
-                \item Eficiencia en la gesti\'on de comercializaci\'on y ventas.
-            \end{itemize} \\
-            \hline
-        \end{tabular}
-    \end{table}
-
-\begin{table}
-    \caption{qweqweqw}
-    \label{qweqweqwe}
-    \begin{tabular}{|p{6cm}|p{6cm}|}
-        \hline
-        \thead{Descripci\'on \\del Indicador} & \thead{Variables \\fundamentales} \\ \hline
-        \begin{minipage}{2in}
-            EFECTIVIDAD EN EL USO DE LAS INSTALACIONES
-    Es el grado de cumplimiento del programa de
-    producci\'on. Este factor puede estar afectado por
-    causas imputadas tanto a los equipos de producci\'on, como a los que administran el proceso. El
-    indicador es medido porcentualmente ( \%).
-        \end{minipage}
-
-         &
-        \begin{minipage}{5in}
-            \vskip 4pt
-            \begin{enumerate}
-                \item This is item 1
-                \item This is item 2
-                \item This is item 2
-                \item This is item 2
-                \item This is item 2
-                \item This is item 2
-                \item This is item 2
-                \item This is item 2
-            \end{enumerate}
-            \vskip 4pt
-        \end{minipage}
-        \\
-        \hline
-    \end{tabular}
-
-\end{table}
+%\section{Definici'on de t'erminos b'asicos}

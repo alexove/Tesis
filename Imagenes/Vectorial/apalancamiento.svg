@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="183.485mm"
+   height="78.139mm"
+   viewBox="0 0 183.485 78.139"
+   version="1.1"
+   id="svg1291"
+   sodipodi:docname="apalancamiento.svg"
+   inkscape:version="0.92.0 r">
+  <defs
+     id="defs1285" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="288.13443"
+     inkscape:cy="186.35097"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     width="183.485mm"
+     inkscape:window-width="1600"
+     inkscape:window-height="841"
+     inkscape:window-x="1360"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1288">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-218.861)">
+    <g
+       id="g1821"
+       transform="matrix(0.99999364,0,0,0.99999364,-16.58582,72.545374)">
+      <g
+         transform="translate(117.9782,38.522247)"
+         id="g1575">
+        <rect
+           style="fill:#00d455;fill-opacity:1;stroke:#000000;stroke-width:0.4091008;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect10"
+           width="52.527588"
+           height="22.003351"
+           x="29.360292"
+           y="148.39334"
+           ry="0.74017966" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.23809195px;line-height:3.27380228px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.13095209px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="36.822712"
+           y="154.58156"
+           id="text819"><tspan
+             sodipodi:role="line"
+             id="tspan817"
+             x="36.822712"
+             y="154.58156"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.23809195px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.13095209px">Rentabilidad</tspan></text>
+        <text
+           id="text823"
+           y="160.19872"
+           x="55.446819"
+           style="font-style:normal;font-weight:normal;font-size:3.94608784px;line-height:2.46630502px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0986522px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="line-height:3.95603085px;text-align:center;text-anchor:middle;stroke-width:0.0986522px"
+             y="160.19872"
+             x="55.446819"
+             id="tspan821"
+             sodipodi:role="line">Capacidad</tspan><tspan
+             style="line-height:3.95603085px;text-align:center;text-anchor:middle;stroke-width:0.0986522px"
+             y="164.15474"
+             x="55.446819"
+             sodipodi:role="line"
+             id="tspan825">para retornar</tspan><tspan
+             style="line-height:3.95603085px;text-align:center;text-anchor:middle;stroke-width:0.0986522px"
+             y="168.11078"
+             x="55.446819"
+             sodipodi:role="line"
+             id="tspan827">el capital</tspan></text>
+      </g>
+      <g
+         transform="translate(-6.5199609,25.945201)"
+         id="g1583">
+        <rect
+           ry="0.74017966"
+           y="148.39334"
+           x="88.5355"
+           height="22.003351"
+           width="52.527588"
+           id="rect839"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.4091008;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           id="text843"
+           y="154.59583"
+           x="94.181976"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.23809195px;line-height:3.27380228px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.13095209px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.23809195px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.13095209px"
+             y="154.59583"
+             x="94.181976"
+             id="tspan841"
+             sodipodi:role="line">Productividad</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.33566451px;line-height:4.96000004px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08339161px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="114.71786"
+           y="160.55539"
+           id="text851"><tspan
+             id="tspan849"
+             sodipodi:role="line"
+             x="114.71786"
+             y="160.55539"
+             style="line-height:4.96000004px;text-align:center;text-anchor:middle;stroke-width:0.08339161px">Bienes y servicios producidos</tspan><tspan
+             id="tspan936"
+             sodipodi:role="line"
+             x="114.71786"
+             y="165.5154"
+             style="line-height:4.96000004px;text-align:center;text-anchor:middle;stroke-width:0.08339161px">Trabajo, energia, materiales</tspan></text>
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path1640-2"
+           d="M 90.410951,162.12105 H 139.18764"
+           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+      <g
+         transform="translate(-65.695186,53.85481)"
+         id="g1592">
+        <rect
+           style="fill:#2a7fff;fill-opacity:1;stroke:#000000;stroke-width:0.4091008;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect853"
+           width="52.527588"
+           height="22.003351"
+           x="147.71072"
+           y="148.39334"
+           ry="0.74017966" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.23809195px;line-height:3.27380228px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.13095209px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="150.21255"
+           y="154.61214"
+           id="text857"><tspan
+             sodipodi:role="line"
+             id="tspan855"
+             x="150.21255"
+             y="154.61214"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.23809195px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.13095209px">Apalancamiento</tspan></text>
+        <text
+           id="text865"
+           y="163.40425"
+           x="173.96489"
+           style="font-style:normal;font-weight:normal;font-size:3.94608784px;line-height:2.46630502px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0986522px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             id="tspan945"
+             style="line-height:3.95603085px;text-align:center;text-anchor:middle;stroke-width:0.0986522px"
+             y="163.40425"
+             x="173.96489"
+             sodipodi:role="line">Deuda / Capital</tspan></text>
+      </g>
+      <g
+         transform="translate(-190.09545,25.945201)"
+         id="g1600">
+        <rect
+           ry="0.74017966"
+           y="148.39334"
+           x="206.88593"
+           height="22.003351"
+           width="52.527588"
+           id="rect867"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.4091008;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           id="text871"
+           y="154.61214"
+           x="218.96365"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.23809195px;line-height:3.27380228px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.13095209px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.23809195px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.13095209px"
+             y="154.61214"
+             x="218.96365"
+             id="tspan869"
+             sodipodi:role="line">Eficiencia</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.94608784px;line-height:5.96000004px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0986522px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="233.05338"
+           y="160.22929"
+           id="text879"><tspan
+             id="tspan877"
+             sodipodi:role="line"
+             x="233.05338"
+             y="160.22929"
+             style="line-height:5.96000004px;text-align:center;text-anchor:middle;stroke-width:0.0986522px">Recursos planificados</tspan><tspan
+             id="tspan951"
+             sodipodi:role="line"
+             x="233.05338"
+             y="166.1893"
+             style="line-height:5.96000004px;text-align:center;text-anchor:middle;stroke-width:0.0986522px">Recursos utilizados</tspan></text>
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path1640-4"
+           d="m 208.76137,162.12106 h 48.77669"
+           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+      <g
+         id="g1624"
+         transform="translate(-190.09545,53.85481)">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.4091008;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect1612"
+           width="52.527588"
+           height="22.003351"
+           x="206.88593"
+           y="148.39334"
+           ry="0.74017966" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.23809195px;line-height:3.27380228px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.13095209px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="222.22339"
+           y="154.61214"
+           id="text1616"><tspan
+             sodipodi:role="line"
+             id="tspan1614"
+             x="222.22339"
+             y="154.61214"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.23809195px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.13095209px">Calidad</tspan></text>
+        <text
+           id="text1622"
+           y="160.22929"
+           x="233.14394"
+           style="font-style:normal;font-weight:normal;font-size:3.94608784px;line-height:5.96000004px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0986522px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="line-height:5.96000004px;text-align:center;text-anchor:middle;stroke-width:0.0986522px"
+             y="160.22929"
+             x="233.14394"
+             sodipodi:role="line"
+             id="tspan1618">Calidad de producción</tspan><tspan
+             style="line-height:5.96000004px;text-align:center;text-anchor:middle;stroke-width:0.0986522px"
+             y="166.1893"
+             x="233.14394"
+             sodipodi:role="line"
+             id="tspan1620">Calidad para el cliente</tspan></text>
+      </g>
+      <g
+         transform="translate(-190.09545,-1.8722346)"
+         id="g1638">
+        <rect
+           ry="0.74017966"
+           y="148.39334"
+           x="206.88593"
+           height="22.003351"
+           width="52.527588"
+           id="rect1626"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.4091008;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           id="text1630"
+           y="154.61214"
+           x="216.58374"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.23809195px;line-height:3.27380228px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.13095209px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.23809195px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.13095209px"
+             y="154.61214"
+             x="216.58374"
+             id="tspan1628"
+             sodipodi:role="line">Efectividad</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.94608784px;line-height:4.96000004px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0986522px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="233.05338"
+           y="160.22929"
+           id="text1636"><tspan
+             id="tspan1632"
+             sodipodi:role="line"
+             x="233.05338"
+             y="160.22929"
+             style="line-height:4.96000004px;text-align:center;text-anchor:middle;stroke-width:0.0986522px">Resultados alcanzados</tspan><tspan
+             id="tspan1634"
+             sodipodi:role="line"
+             x="233.05338"
+             y="165.1893"
+             style="line-height:4.96000004px;text-align:center;text-anchor:middle;stroke-width:0.0986522px">Resultados Planificados</tspan></text>
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path1640"
+           d="m 208.76137,161.3166 h 48.77669"
+           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path1679"
+         d="m 69.373147,156.56657 h 6.765259 v 30.3185 h 5.933573"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 69.373147,217.04759 h 6.765259 v -30.3185"
+         id="path1681"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 69.259238,186.88507 h 6.991907"
+         id="path1683"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 134.46068,184.08323 h 6.76526 v 13.91433 h 5.93358"
+         id="path1767"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path1769"
+         d="m 134.46068,212.81423 h 6.76526 v -28.731"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
