@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<project name="" company="Universidad Andina del Cusco" manager="Alex Irmel Oviedo Solis" phase="" project-start="20170113T000000Z" mrproject-version="2" calendar="1">
+  <properties/>
+  <phases/>
+  <calendars>
+    <day-types>
+      <day-type id="0" name="Jornada laboral" description="Un d&#xED;a de trabajo predeterminado"/>
+      <day-type id="1" name="Jornada de descanso" description="Un d&#xED;a de descanso predeterminado"/>
+      <day-type id="2" name="Usar base" description="Usar d&#xED;a del calendario base"/>
+    </day-types>
+    <calendar id="1" name="Predeterminado">
+      <default-week mon="0" tue="0" wed="0" thu="0" fri="0" sat="0" sun="1"/>
+      <overridden-day-types>
+        <overridden-day-type id="0">
+          <interval start="0800" end="1200"/>
+          <interval start="1300" end="1700"/>
+        </overridden-day-type>
+      </overridden-day-types>
+      <days>
+        <day date="20170805" type="day-type" id="0"/>
+      </days>
+    </calendar>
+  </calendars>
+  <tasks>
+    <task id="1" name="Busqueda del tema" note="" work="864000" start="20170113T000000Z" end="20170216T170000Z" work-start="20170113T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="2" name="Definici&#xF3;n del tema" note="" work="1440000" start="20170218T000000Z" end="20170417T170000Z" work-start="20170218T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20170218T000000Z"/>
+    </task>
+    <task id="3" name="Planteamiento del problema" note="" work="576000" start="20170325T000000Z" end="20170417T170000Z" work-start="20170325T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20170325T000000Z"/>
+    </task>
+    <task id="4" name="Busqueda de fuentes de informaci&#xF3;n" note="" work="2880000" start="20170325T000000Z" end="20170719T170000Z" work-start="20170325T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20170325T000000Z"/>
+    </task>
+    <task id="5" name="Elaboraci&#xF3;n del proyecto" note="" work="864000" start="20170415T000000Z" end="20170519T170000Z" work-start="20170415T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20170415T000000Z"/>
+    </task>
+    <task id="6" name="Construcci&#xF3;n del marco te&#xF3;rico" note="" work="2592000" start="20170331T000000Z" end="20170713T170000Z" work-start="20170331T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20170331T000000Z"/>
+    </task>
+    <task id="7" name="Redacci&#xF3;n del proyecto de investigaci&#xF3;n" note="" work="2592000" start="20170502T000000Z" end="20170814T170000Z" work-start="20170502T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20170502T000000Z"/>
+    </task>
+    <task id="8" name="Construcci&#xF3;n  de los instrumentos de recolecci&#xF3;n" note="" work="2592000" start="20170331T000000Z" end="20170713T170000Z" work-start="20170331T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20170331T000000Z"/>
+    </task>
+    <task id="9" name="Aplicaci&#xF3;n del trabajo de campo" note="" work="432000" start="20170814T000000Z" end="20170830T170000Z" work-start="20170814T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20170814T000000Z"/>
+    </task>
+    <task id="10" name="Observaci&#xF3;n de la muestra" note="" work="1152000" start="20170901T000000Z" end="20171017T170000Z" work-start="20170901T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20170901T000000Z"/>
+    </task>
+    <task id="11" name="An&#xE1;lisis de datos" note="" work="1152000" start="20171017T000000Z" end="20171201T170000Z" work-start="20171017T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20171017T000000Z"/>
+    </task>
+    <task id="12" name="Redacci&#xF3;n del primer borrador" note="" work="1152000" start="20171201T000000Z" end="20180116T170000Z" work-start="20171201T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20171201T000000Z"/>
+    </task>
+    <task id="13" name="Redacci&#xF3;n de la informaci&#xF3;n final" note="" work="576000" start="20180116T000000Z" end="20180207T170000Z" work-start="20180116T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20180116T000000Z"/>
+    </task>
+    <task id="14" name="Presentaci&#xF3;n de informaci&#xF3;n final" note="" work="432000" start="20180208T000000Z" end="20180224T170000Z" work-start="20180208T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20180208T000000Z"/>
+    </task>
+    <task id="15" name="Sustentaci&#xF3;n" note="" work="288000" start="20180226T000000Z" end="20180308T170000Z" work-start="20180226T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20180226T000000Z"/>
+    </task>
+  </tasks>
+  <resource-groups/>
+  <resources/>
+  <allocations/>
+</project>
