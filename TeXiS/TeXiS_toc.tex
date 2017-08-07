@@ -1,19 +1,19 @@
-% Pedimos que inserte todos los ep�grafes hasta el nivel \subsection en
+% Pedimos que inserte todos los epXgrafes hasta el nivel \subsection en
 % la tabla de contenidos.
 \setcounter{tocdepth}{2}
 
-% Le  pedimos  que nos  numere  todos  los  ep�grafes hasta  el  nivel
+% Le  pedimos  que nos  numere  todos  los  epXgrafes hasta  el  nivel
 % \subsubsection en el cuerpo del documento.
 \setcounter{secnumdepth}{3}
 
 
-% Creamos los diferentes �ndices.
+% Creamos los diferentes Xndices.
 
 % Lo primero un  poco de trabajo en los marcadores  del PDF. No quiero
-% que  salga una  entrada  por cada  �ndice  a nivel  0...  si no  que
-% aparezca un marcador "�ndices", que  tenga dentro los otros tipos de
-% �ndices.  Total, que creamos el marcador "�ndices".
-% Antes de  la creaci�n  de los �ndices,  se a�aden los  marcadores de
+% que  salga una  entrada  por cada  Xndice  a nivel  0...  si no  que
+% aparezca un marcador "Xndices", que  tenga dentro los otros tipos de
+% Xndices.  Total, que creamos el marcador "Xndices".
+% Antes de  la creaciXn  de los Xndices,  se aXaden los  marcadores de
 % nivel 1.
 
 \ifpdf
@@ -22,12 +22,12 @@
 
 % Tabla de contenidos.
 %
-% La  inclusi�n  de '\tableofcontents'  significa  que  en la  primera
-% pasada  de  LaTeX  se  crea   un  fichero  con  extensi�n  .toc  con
-% informaci�n sobre la tabla de contenidos (es conceptualmente similar
-% al  .bbl de  BibTeX, creo).  En la  segunda ejecuci�n  de  LaTeX ese
-% documento se utiliza para  generar la verdadera p�gina de contenidos
-% usando la  informaci�n sobre los  cap�tulos y dem�s guardadas  en el
+% La  inclusiXn  de '\tableofcontents'  significa  que  en la  primera
+% pasada  de  LaTeX  se  crea   un  fichero  con  extensiXn  .toc  con
+% informaciXn sobre la tabla de contenidos (es conceptualmente similar
+% al  .bbl de  BibTeX, creo).  En la  segunda ejecuciXn  de  LaTeX ese
+% documento se utiliza para  generar la verdadera pXgina de contenidos
+% usando la  informaciXn sobre los  capXtulos y demXs guardadas  en el
 % .toc
 \ifpdf
    \pdfbookmark[1]{Tabla de contenidos}{tabla de contenidos}
@@ -39,10 +39,10 @@
 
 \newpage
 
-% �ndice de figuras
+% Xndice de figuras
 %
-% La idea es semejante que para  el .toc del �ndice, pero ahora se usa
-% extensi�n .lof (List Of Figures) con la informaci�n de las figuras.
+% La idea es semejante que para  el .toc del Xndice, pero ahora se usa
+% extensiXn .lof (List Of Figures) con la informaciXn de las figuras.
 
 \cabeceraEspecial{\'Indice de figuras}
 
@@ -54,7 +54,7 @@
 
 %\newpage
 
-% �ndice de tablas
+% Xndice de tablas
 % Como antes, pero ahora .lot (List Of Tables)
 
 \ifpdf
@@ -68,7 +68,7 @@
 %\newpage
 
 % Variable local para emacs, para  que encuentre el fichero maestro de
-% compilaci�n y funcionen mejor algunas teclas r�pidas de AucTeX
+% compilaciXn y funcionen mejor algunas teclas rXpidas de AucTeX
 
 %%%
 %%% Local Variables:

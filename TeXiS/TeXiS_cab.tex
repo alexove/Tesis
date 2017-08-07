@@ -20,53 +20,53 @@
 % version 2005/12/01 or later.
 %
 % This work has the LPPL maintenance status `maintained'.
-% 
+%
 % The Current Maintainers of this work are Marco Antonio Gomez-Martin
 % and Pedro Pablo Gomez-Martin
 %
 %---------------------------------------------------------------------
 %
-% Contiene  los comandos  para poder  tener cabeceras  en  las páginas
+% Contiene  los comandos  para poder  tener cabeceras  en  las pXginas
 % distintas de las que se configuran por defecto.
 %
-% Define  además  algunos  comandos   para  utilizar  en  capítulos  y
+% Define  ademXs  algunos  comandos   para  utilizar  en  capXtulos  y
 % secciones "especiales"  que no siguen  la cabecera normal,  como los
-% agradecimientos, resumen, tablas de índices y secciones de resumen y
-% notas bibliográficas.
+% agradecimientos, resumen, tablas de Xndices y secciones de resumen y
+% notas bibliogrXficas.
 %
 %---------------------------------------------------------------------
 
 
-% EXPLICACIÓN DEL FANCYHDR (paquete utilizado para las cabeceras)
+% EXPLICACIXN DEL FANCYHDR (paquete utilizado para las cabeceras)
 
 % Para definir las cabeceras que  se quieren, se utilizan los comandos
-% \fancyhead y  \fancyfoot. Ambos reciben  como parámetro entre  [] el
+% \fancyhead y  \fancyfoot. Ambos reciben  como parXmetro entre  [] el
 % sitio donde se  quiere establecer. Por ejemplo si  quiero cambiar lo
-% que aparece en las páginas pares (_E_ven), en la parte de la derecha
+% que aparece en las pXginas pares (_E_ven), en la parte de la derecha
 % (_R_ight) de la cabecera  (_head_) se utiliza \fancyhead[ER]{Esto va
-%   a la  derecha en  las pares}. En  realidad, esos  parámetros entre
-% corchetes se pueden agrupar. Por  ejemplo, si queremos que el número
-% de página (\thepage)  aparezca en las pares a la  izquierda y en las
+%   a la  derecha en  las pares}. En  realidad, esos  parXmetros entre
+% corchetes se pueden agrupar. Por  ejemplo, si queremos que el nXmero
+% de pXgina (\thepage)  aparezca en las pares a la  izquierda y en las
 % impares a la derecha, se usa \fancyhead[LE,RO]{\thepage}.
 %
-% Por otro  lado, en la  práctica se utiliza  un texto en  las páginas
+% Por otro  lado, en la  prXctica se utiliza  un texto en  las pXginas
 % izquierdas (es decir, las pares),  y otra en las derechas (es decir,
 % impares). Por eso, existen dos comandos preestablecidos, \righmark y
-% \leftmark,  que  contienen el  texto  que  aparecerá.  Lo normal  es
-% definir         después:         \fancyhead[LO]{\rightmark}        y
-% \fancyhead[RE]{\leftmark}, para  que a  la izquierda de  las páginas
-% impares aparezca la  marca destinada a las páginas  de la derecha, y
-% en  la  derecha  de las  pares  el  texto  para  las páginas  de  la
+% \leftmark,  que  contienen el  texto  que  aparecerX.  Lo normal  es
+% definir         despuXs:         \fancyhead[LO]{\rightmark}        y
+% \fancyhead[RE]{\leftmark}, para  que a  la izquierda de  las pXginas
+% impares aparezca la  marca destinada a las pXginas  de la derecha, y
+% en  la  derecha  de las  pares  el  texto  para  las pXginas  de  la
 % izquierda.
 %
-% Por  lo tanto,  si  queremos  que en  la  izquierda (páginas  pares)
-% aparezca el  nombre del capítulo,  habrá que "definir"  el \leftmark
+% Por  lo tanto,  si  queremos  que en  la  izquierda (pXginas  pares)
+% aparezca el  nombre del capXtulo,  habrX que "definir"  el \leftmark
 % con el nombre.  Si queremos que en la  derecha (impares) aparezca el
-% nombre de la sección, habrá que "definir" así el \rightmark.
+% nombre de la secciXn, habrX que "definir" asX el \rightmark.
 %
 % La realidad  es que no se  definen esos dos comandos  (de hecho creo
 % que no son  comandos como tal redefinibles...}, sino  que se utiliza
-% el comando \markboth. Según la documentación del paquete fancyhdr:
+% el comando \markboth. SegXn la documentaciXn del paquete fancyhdr:
 %
 % The \leftmark  contains the Left  argument of the Last  \markboth on
 % the  page, the  \rihtmark contains  de Right  argument of  the first
@@ -74,15 +74,15 @@
 % If no  marks are  present on  a page they  are "inherited"  from the
 % previous page.
 %
-% Es decir, el \markboth debe ser  algún tipo de comando que tiene dos
-% parámetros, y  que se puede poner  en cualquier lugar  de la página,
-% para cambiar el título. Por  ejemplo, se puede poner al principio de
-% un capítulo con \markboth{Titulo del capitulo}{}.
+% Es decir, el \markboth debe ser  algXn tipo de comando que tiene dos
+% parXmetros, y  que se puede poner  en cualquier lugar  de la pXgina,
+% para cambiar el tXtulo. Por  ejemplo, se puede poner al principio de
+% un capXtulo con \markboth{Titulo del capitulo}{}.
 %
-% En  realidad, ese \markboth  intuyo que  está ya  por defecto  en el
+% En  realidad, ese \markboth  intuyo que  estX ya  por defecto  en el
 % comando \chapter, igual  que hay otro similar en  las secciones.  Si
 % se quiere poner otros, basta con redefinir el comando \chaptermark y
-% \sectionmark, que intuyo que serán  como hooks dentro del \chapter y
+% \sectionmark, que intuyo que serXn  como hooks dentro del \chapter y
 % de \section. Y eso es precisamente lo que he utilizado al definir la
 % cabecera.
 
@@ -92,28 +92,28 @@
 % Paquete  para mejorar  el estilo  de  las cabeceras.  El paquete  es
 % fancyhdr.   En  versiones   antiguas  de   LaTeX,  el   paquete  era
 % fancyheader, que es el utilizado por ejemplo en el tutorial de LaTeX
-% que sirvió de inspiración para  esta plantilla. Además de incluir el
+% que sirviX de inspiraciXn para  esta plantilla. AdemXs de incluir el
 % paquete,  definimos   el  estilo  de  cabeceras   que  queremos.  En
 % particular, utilizaremos el  estilo "predefinido" fancy, con algunas
-% modificaciones. Además, cambio el estilo de las páginas de principio
-% del capítulo (técnicamente estilo "plain"), para que el número de la
-% página aparezca en la esquina de la derecha (abajo), en vez de en el
-% centro. Para los curiosos, explicación al final del fichero.
+% modificaciones. AdemXs, cambio el estilo de las pXginas de principio
+% del capXtulo (tXcnicamente estilo "plain"), para que el nXmero de la
+% pXgina aparezca en la esquina de la derecha (abajo), en vez de en el
+% centro. Para los curiosos, explicaciXn al final del fichero.
 \usepackage{fancyhdr}
 
 \pagestyle{fancy}
 
-% Definición del estilo en las páginas normales:
+% DefiniciXn del estilo en las pXginas normales:
 
-% Alargar la cabecera sería:
+% Alargar la cabecera serXa:
 %\addtolength{\headwidth}{\marginparwidth}
 
-% Hacemos un poco más alta la cabecera, ya que el valor por defecto
+% Hacemos un poco mXs alta la cabecera, ya que el valor por defecto
 % (12) no es suficiente para el tipo de letra y contenido de cabecera
-% elegido, lo que provoca warnings contínuos en la compilación
+% elegido, lo que provoca warnings contXnuos en la compilaciXn
 \addtolength{\headheight}{2pt}
 
-% Establecemos el resto de parámetros de apariencia
+% Establecemos el resto de parXmetros de apariencia
 \newcommand{\restauraCabecera}{
 \fancyhead[LO]{\rightmark}
 \fancyhead[RE]{\leftmark}
@@ -128,19 +128,19 @@
 \restauraCabecera
 \fancyhead[RO,LE]{\thepage}
 
-% Para los capítulos que no tienen numeración en el índice ni tienen
+% Para los capXtulos que no tienen numeraciXn en el Xndice ni tienen
 % secciones, se debe cambiar la cabecera, para que no aparezca algo
-% como "Capítulo 0. Agradecimientos". En esos capítulos, la cabecera
-% es "especial", porque en las páginas impares, tampoco aparece el
-% nombre de la sección, sino también el nombre del "capítulo". Para
-% esos casos, se puede utilizar el comando siguiente.  
+% como "CapXtulo 0. Agradecimientos". En esos capXtulos, la cabecera
+% es "especial", porque en las pXginas impares, tampoco aparece el
+% nombre de la secciXn, sino tambiXn el nombre del "capXtulo". Para
+% esos casos, se puede utilizar el comando siguiente.
 
 % IMPORTANTE: este comando _sobreescribe_ el funcionamiento de la
 % cabecera, hasta que se llame al comando \restauraCabecera, por lo
-% después del "capítulo especial", debe invocarse a
-% \restauraCabecera. Y decir _después_ significa _después_, es decir
-% cuando el capítulo YA HA TERMINADO, y se ha empezado el siguiente, o
-% forzando final de página con \newpage (\newpage\restauracabecera).
+% despuXs del "capXtulo especial", debe invocarse a
+% \restauraCabecera. Y decir _despuXs_ significa _despuXs_, es decir
+% cuando el capXtulo YA HA TERMINADO, y se ha empezado el siguiente, o
+% forzando final de pXgina con \newpage (\newpage\restauracabecera).
 \newcommand{\cabeceraEspecial}[1]{
 \fancyhead[LO]{\textsc{#1}}
 \fancyhead[RE]{\textsc{#1}}
@@ -148,20 +148,20 @@
 
 % La forma  "*" de  chapters y  sections NO llaman  a los  comandos de
 % marca (chaptermark y sectionmark) que son los que finalmente alteran
-% la cabecera. En  la tesis se utilizan secciones  sin numeración para
-% el resumen y notas bibliograficas de cada capítulo, y queda bastante
-% mal que  se mantenga en la  cabecera el nombre de  la última sección
-% con numeración.
+% la cabecera. En  la tesis se utilizan secciones  sin numeraciXn para
+% el resumen y notas bibliograficas de cada capXtulo, y queda bastante
+% mal que  se mantenga en la  cabecera el nombre de  la Xltima secciXn
+% con numeraciXn.
 %
-% La solución es  modificar a mano la cabecera  (en concreto, la parte
-% izquierda  de las  páginas  impares, es  decir  el \markright).  Por
-% ejemplo, para las conclusiones habría que hacer:
+% La soluciXn es  modificar a mano la cabecera  (en concreto, la parte
+% izquierda  de las  pXginas  impares, es  decir  el \markright).  Por
+% ejemplo, para las conclusiones habrXa que hacer:
 %
 % \section*{Resumen\markright{Resumen}}
 %
 % Para evitar tener  que hacerlo todo el tiempo,  creamos los comandos
 % \Resumen y  \NotasBibliograficas que lo  haga por nosotros.   El uso
-% será:
+% serX:
 %
 % \section*{
 %                   \Resumen
@@ -169,7 +169,7 @@
 %
 % Por otro lado, al ser secciones  sin numerar no se meten en la tabla
 % de contenidos ni  como marcador para que aparezca  en el "contenido"
-% del PDF mostrado  por el lector. Para que lo haga,  hay que añadir a
+% del PDF mostrado  por el lector. Para que lo haga,  hay que aXadir a
 % mano la entrada en el toc. Por ejemplo, para las conclusiones:
 %
 % \addcontentsline{toc}{section}{Resumen}
@@ -177,30 +177,30 @@
 %
 % que dice "quiero meter en el TOC (Table Of Content) una entrada tipo
 % section, con el nombre 'Resumen  ".  Esto tiene el efecto lateral de
-% añadir el marcador en el PDF.
+% aXadir el marcador en el PDF.
 %
 % Esto  ya   no  lo   podemos  meter  en   los  comandos   \Resumen  y
 % \NotasBibliograficas, porque como lo estamos usando _dentro_ del
-% \section*, LaTeX aún  no ha definido la posición en  el PDF y aunque
+% \section*, LaTeX aXn  no ha definido la posiciXn en  el PDF y aunque
 % el  TOC sale  bien, el  enlace que  se  pone en  dicho TOC  y en  el
 % contenido del PDF  mostrado por el lector no sale  bien. En lugar de
-% eso,  hace referencia al  último marcador  (por ejemplo,  la sección
-% anterior, o la última figura).
+% eso,  hace referencia al  Xltimo marcador  (por ejemplo,  la secciXn
+% anterior, o la Xltima figura).
 %
 %
-% Hay que ejecutar el comando \addcontentsline por tanto _después_ del
-% comando \section. Una alternativa sería definir \Resumen de modo que
-% él   mismo  hiciera   el  \section*{...}    completo,  y   luego  el
-% \addcontentsline... y así no habría problemas. Pero esta solución no
+% Hay que ejecutar el comando \addcontentsline por tanto _despuXs_ del
+% comando \section. Una alternativa serXa definir \Resumen de modo que
+% Xl   mismo  hiciera   el  \section*{...}    completo,  y   luego  el
+% \addcontentsline... y asX no habrXa problemas. Pero esta soluciXn no
 % es  compatible  con  la   capacidad  de  los  editores  de  resaltar
-% secciones. Por tanto, cada vez que pongas la sección de conclusiones
-% o  de en  el próximo  capítulo  tienes que,  MANUALMENTE, añadir  el
-% \addcontentsline. Hazlo  _después_ del  \section*. En otro  caso, se
-% utilizará también en  el enlace del PDF la  última sección o figura.
-% Haciéndolo después  en realidad  no queda del  todo bien,  porque el
-% enlace queda a la primera letra de la sección, en lugar de al título
+% secciones. Por tanto, cada vez que pongas la secciXn de conclusiones
+% o  de en  el prXximo  capXtulo  tienes que,  MANUALMENTE, aXadir  el
+% \addcontentsline. Hazlo  _despuXs_ del  \section*. En otro  caso, se
+% utilizarX tambiXn en  el enlace del PDF la  Xltima secciXn o figura.
+% HaciXndolo despuXs  en realidad  no queda del  todo bien,  porque el
+% enlace queda a la primera letra de la secciXn, en lugar de al tXtulo
 % como ocurre con  las secciones numeradas, pero no  he encontrado una
-% forma de hacerlo mejor y tampoco quiero perder más tiempo.
+% forma de hacerlo mejor y tampoco quiero perder mXs tiempo.
 %
 % Para    eso,    hay    otros    dos    comandos,    \TocResumen    y
 % \TocNotasBibliograficas
@@ -217,42 +217,42 @@
 \newcommand{\Resumen}{Resumen\markright{Resumen}}
 \newcommand{\TocResumen}{\addcontentsline{toc}{section}{Resumen}}
 
-\newcommand{\NotasBibliograficas}{Notas bibliográficas\markright{Notas
-    bibliográficas}}
+\newcommand{\NotasBibliograficas}{Notas bibliogrÃ¡ficas\markright{Notas
+    bibliogrÃ¡ficas}}
 \newcommand{\TocNotasBibliograficas}{\addcontentsline{toc}{section}{Notas
-    bibliográficas}}
+    bibliogrÃ¡ficas}}
 
-\newcommand{\ProximoCapitulo}{En el próximo
-  capítulo\ldots\markright{En el próximo capítulo\ldots}}
+\newcommand{\ProximoCapitulo}{En el prÃ³ximo
+  capÃ­tulo\ldots\markright{En el prÃ³ximo capÃ­tulo\ldots}}
 \newcommand{\TocProximoCapitulo}{\addcontentsline{toc}{section}{En
-    el próximo capítulo}}
+    el prÃ³ximo capÃ­tulo}}
 
 \newcommand{\Conclusiones}{Conclusiones\markright{Conclusiones\ldots}}
 \newcommand{\TocConclusiones}{\addcontentsline{toc}{section}{Conclusiones}}
 
-% Para el apéndice, hay que indicar que queremos que ponga "Apéndice
-% X", y no "Capítulo X" como hace normalmente.
+% Para el apXndice, hay que indicar que queremos que ponga "ApXndice
+% X", y no "CapXtulo X" como hace normalmente.
 
-% Si estamos en modo Debug, ponemos en el pie de página una indicación.
+% Si estamos en modo Debug, ponemos en el pie de pXgina una indicaciXn.
 
 \ifx\release\undefined
 \fancyfoot[LE,RO]{\vspace*{1cm}\small \sc Borrador -- \today}
 \else
 \fi
 
-% Definición del estilo en la  página de inicio de capítulo: Número de
-% la página abajo a la derecha, y sin línea en la zona superior.
+% DefiniciXn del estilo en la  pXgina de inicio de capXtulo: NXmero de
+% la pXgina abajo a la derecha, y sin lXnea en la zona superior.
 \fancypagestyle{plain}{%
-  \fancyhf{}  
+  \fancyhf{}
   \fancyfoot[R]{\thepage}
   \renewcommand{\headrulewidth}{0pt}
   \renewcommand{\footrulewidth}{0pt}
 }
 
-% Cuando   se   cambia   de    capítulo,   se   ejecuta   el   comando
-% \cleardoublepage.  Si queremos que  la posible  página que  se queda
+% Cuando   se   cambia   de    capXtulo,   se   ejecuta   el   comando
+% \cleardoublepage.  Si queremos que  la posible  pXgina que  se queda
 % completamente en blanco NO tenga cabeceras, tenemos que redefinir el
-% comando. (Cogido de la documentación del fancyhdr)
+% comando. (Cogido de la documentaciXn del fancyhdr)
 \makeatletter
 \def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
   \hbox{}
@@ -264,7 +264,7 @@
 
 
 % Variable local para emacs, para  que encuentre el fichero maestro de
-% compilación y funcionen mejor algunas teclas rápidas de AucTeX
+% compilaciXn y funcionen mejor algunas teclas rXpidas de AucTeX
 
 %%%
 %%% Local Variables:

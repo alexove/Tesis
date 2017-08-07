@@ -20,40 +20,40 @@
 % version 2005/12/01 or later.
 %
 % This work has the LPPL maintenance status `maintained'.
-% 
+%
 % The Current Maintainers of this work are Marco Antonio Gomez-Martin
 % and Pedro Pablo Gomez-Martin
 %
 %---------------------------------------------------------------------
 %
-% Contiene  los  comandos  para  generar  el listado de acrónimos
+% Contiene  los  comandos  para  generar  el listado de acrXnimos
 % documento.
 %
 %---------------------------------------------------------------------
 %
-% NOTA IMPORTANTE:  para que la  generación de acrónimos  funcione, al
-% menos  debe  existir  un  acrónimo   en  el  documento.  Si  no,  la
-% compilación  del   fichero  LaTeX  falla  con   un  error  "extraño"
-% (indicando  que  quizá  falte  un \item).   Consulta  el  comentario
+% NOTA IMPORTANTE:  para que la  generaciXn de acrXnimos  funcione, al
+% menos  debe  existir  un  acrXnimo   en  el  documento.  Si  no,  la
+% compilaciXn  del   fichero  LaTeX  falla  con   un  error  "extraXo"
+% (indicando  que  quizX  falte  un \item).   Consulta  el  comentario
 % referente al paquete glosstex en TeXiS_pream.tex.
 %
 %---------------------------------------------------------------------
 
 
-% Redefinimos a español  el título de la lista  de acrónimos (Babel no
+% Redefinimos a espaXol  el tXtulo de la lista  de acrXnimos (Babel no
 % lo hace por nosotros esta vez)
 
-\def\listacronymname{Lista de acrónimos}
+\def\listacronymname{Lista de acrÃ³nimos}
 
 % Para el glosario:
 % \def\glosarryname{Glosario}
 
-% Si se  va a generar  la tabla de  contenidos (el índice  habitual) y
-% también vamos a  generar la lista de acrónimos  (ambas decisiones se
-% toman en  función de  la definición  o no de  un par  de constantes,
-% puedes consultar config.tex  para más información), entonces metemos
-% en la  tabla de contenidos una  entrada para marcar  la página donde
-% está el índice de palabras.
+% Si se  va a generar  la tabla de  contenidos (el Xndice  habitual) y
+% tambiXn vamos a  generar la lista de acrXnimos  (ambas decisiones se
+% toman en  funciXn de  la definiciXn  o no de  un par  de constantes,
+% puedes consultar config.tex  para mXs informaciXn), entonces metemos
+% en la  tabla de contenidos una  entrada para marcar  la pXgina donde
+% estX el Xndice de palabras.
 
 \ifx\generatoc\undefined
 \else
@@ -61,13 +61,13 @@
 \fi
 
 
-% Generamos la lista de acrónimos (en realidad el índice asociado a la
+% Generamos la lista de acrXnimos (en realidad el Xndice asociado a la
 % lista "acr" de GlossTeX)
 
 \printglosstex(acr)
 
 % Variable local para emacs, para  que encuentre el fichero maestro de
-% compilación y funcionen mejor algunas teclas rápidas de AucTeX
+% compilaciXn y funcionen mejor algunas teclas rXpidas de AucTeX
 
 %%%
 %%% Local Variables:
