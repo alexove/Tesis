@@ -20,7 +20,9 @@
 \usepackage{rotating}
 \usepackage{glossaries}
 
-%S\usepackage[T1]{fontenc}
+\usepackage[T1]{fontenc}
+\usepackage{charter}
+
 %
 % Definimos  el   comando  \compilaCapitulo,  que   luego  se  utiliza
 % (opcionalmente) en config.tex. QuedarXa  mejor si tambiXn se definiera
@@ -97,6 +99,8 @@ constantes,guionado,Cascaras/bibliografia,config%
 %- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 \begin{document}
 
+\fontfamily{bch}
+\selectfont
 % Incluimos el  fichero de definiciXn de guionado  de algunas palabras
 % que LaTeX no ha dividido como deberXa
 \input{guionado}
