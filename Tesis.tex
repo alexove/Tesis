@@ -27,6 +27,13 @@
 
 \usepackage{vmargin}
 
+\usepackage{titletoc}
+\titlecontents{chapter}% <section-type>
+  [0pt]% <left>
+  {\bfseries}% <above-code>
+  {\chaptername\ \thecontentslabel:\quad}% <numbered-entry-format>
+  {}% <numberless-entry-format>
+  {\hfill\contentspage}
 
 %
 % Definimos  el   comando  \compilaCapitulo,  que   luego  se  utiliza
