@@ -1,0 +1,18 @@
+- Operaciones
+-- Cadena de suministro
+--- Almacén de insumos.
+--- Gestión de proveedores.
+--- Costos de producción.
+
+- Comercializacion
+-- Sistema de ventas
+--- Almacen de tienda.
+-- Gestion de clientes.
+
+- Finanzas
+-- Ingresos y egresos.
+
+- Reportes**
+-- Estados financieros.
+-- Radios.
+-- Indicadores de liquidez.

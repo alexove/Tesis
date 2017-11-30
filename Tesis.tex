@@ -23,6 +23,11 @@
 \usepackage[T1]{fontenc}
 \usepackage{charter}
 
+\usepackage{setspace}
+
+\usepackage{vmargin}
+
+
 %
 % Definimos  el   comando  \compilaCapitulo,  que   luego  se  utiliza
 % (opcionalmente) en config.tex. QuedarXa  mejor si tambiXn se definiera
@@ -83,9 +88,9 @@ constantes,guionado,Cascaras/bibliografia,config%
 %
 \ifpdf\hypersetup{%
     pdftitle = {\titulo},
-    pdfsubject = {Tesis de maestr'ia},
+    pdfsubject = {Tesis de maestría},
     pdfkeywords = {MiPYME,Cloud Computing, tesis, trabajo de
-      investigaci\'on, trabajo de Master},
+      investigación, trabajo de Master},
     pdfauthor = {\textcopyright\ \autor},
     pdfcreator = {\LaTeX\ con el paquete \flqq hyperref\frqq},
     pdfproducer = {pdfeTeX-0.\the\pdftexversion\pdftexrevision},
@@ -111,6 +116,16 @@ constantes,guionado,Cascaras/bibliografia,config%
 
 \include{Cascaras/cover}
 
+% \setmarginsrb{2.5cm}{2.5cm}{2.5cm}{2.5cm}
+\setmargins{2.45cm} % margen izquierdo
+{2.45cm}  % margen superior
+{16.5cm}  % anchura del texto
+{23.5cm} % altura del texto
+{10pt}    % altura de los encabezados
+{0.5cm}   % espacio entre el texto y los encabezados
+{0pt}     % altura del pie de página
+{2cm}     % espacio entre el texto y el pie de página
+
 %\include{Cascaras/dedicatoria}
 
 %\include{Cascaras/agradecimientos}
@@ -128,6 +143,8 @@ constantes,guionado,Cascaras/bibliografia,config%
 \restauraCabecera
 
 %\include{Capitulos/Parte1}
+\doublespacing
+
 \include{Capitulos/01-Introduccion}
 \include{Capitulos/02-Marco_teorico}
 \include{Capitulos/03-Metodo}
@@ -146,7 +163,7 @@ constantes,guionado,Cascaras/bibliografia,config%
 %
 % BibliografXa
 %
-
+\cleardoublepage
 \include{Cascaras/bibliografia}
 
 %
