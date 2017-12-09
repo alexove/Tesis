@@ -8,7 +8,38 @@ El cronograma planteado se puede ver en la figura \ref{fig:cronograma}
 \begin{figure}[h]
     \centering
     \captionsetup{justification=centering}
-    \includegraphics[width=1.0\textwidth]{Imagenes/Bitmap/cronograma}
+    %\includegraphics[width=1.0\textwidth]{Imagenes/Bitmap/cronograma}
+    %----
+
+    \begin{ganttchart}[
+      hgrid=true,
+      vgrid={*{11}{black, dotted},*1{black},*3{black, dotted}},
+      y unit chart=0.7cm
+    ]{1}{16}
+      \ganttset{bar height=.6}
+      \ganttset{bar/.append style={fill=lightgray}} %[bar/.append style={fill=blue}]
+
+      \gantttitle{2017}{12}
+      \gantttitle{2018}{4} \\
+      \gantttitlelist{1,...,12,1,2,3,4}{1} \\
+
+      \ganttbar{Búsqueda de tema}{1}{1} \\
+      \ganttbar{Definición de tema}{2}{3} \\
+      \ganttbar{Planteamiento del problema}{4}{4} \\
+      \ganttbar{Búsqueda de fuentes de información}{5}{8} \\
+      \ganttbar{Elaboración del proyecto}{5}{5} \\
+      \ganttbar{Construcción de marco teórico}{4}{7} \\
+      \ganttbar{Redacción del proyecto de investigación}{6}{8} \\
+      \ganttbar{Construcción de los instrumentos de investigación}{4}{8} \\
+      \ganttbar{Aplicación del trabajo de campo}{5}{7} \\
+      \ganttbar{Observación de la muestra}{7}{7} \\
+      \ganttbar{Análisis de datos}{7}{8} \\
+      \ganttbar{Redacción del primer borrador}{9}{12} \\
+      \ganttbar{Redacción del informe final}{10}{12} \\
+      \ganttbar{Presentación del informe final}{13}{14} \\
+      \ganttbar{Sustentación}{16}{16}
+    \end{ganttchart}
+    %----
     \caption{Cronograma de trabajo}
     \label{fig:cronograma}
 \end{figure}
@@ -19,24 +50,25 @@ El financiamiento será asumido integramente por el tesista.
 
 \begin{table}[]
   \centering
-  \caption{Presupuesto}
-  \label{t:presupuesto}
+
   \begin{tabular}{|p{5cm}|p{3cm}|p{3cm}|}
     \hline
     \thead{Detalle} & \thead{Prec. Unit.} & \thead{Sub Total} \\ \hline
-    Material de escritorio &  &  \multicolumn{1}{|r|}{400.00} \\ \hline
-    Anillados & \multicolumn{1}{|r|}{5.00}  &  \multicolumn{1}{|r|}{45.00} \\ \hline
-    Copias &  &  \multicolumn{1}{|r|}{90.00} \\ \hline
-    Adquisición de bibliografia  &  & \multicolumn{1}{|r|}{400.00} \\ \hline
-    Empastados &  \multicolumn{1}{|r|}{30.00}  & \multicolumn{1}{|r|}{90.00} \\ \hline
-    Transporte &    & \multicolumn{1}{|r|}{100.00} \\ \hline
-    Corrector de estilo &    & \multicolumn{1}{|r|}{300.00} \\ \hline
-    Asesor estadístico &    & \multicolumn{1}{|r|}{300.00} \\ \hline
-    Servicios (Internet) & \multicolumn{1}{|r|}{80.00} & \multicolumn{1}{|r|}{240.00} \\ \hline
-    Elaboración de software   &  & \multicolumn{1}{|r|}{23 100.00} \\ \hline
-    Aplicación de instrumentos  & \multicolumn{1}{|r|}{300.00} & \multicolumn{1}{|r|}{300.00} \\ \hline
-    \textbf{TOTAL}  &  & \multicolumn{1}{|r|}{25 665.00} \\ \hline
+    Material de escritorio &  &  \multicolumn{1}{r|}{400.00} \\ \hline
+    Anillados & \multicolumn{1}{r|}{5.00}  &  \multicolumn{1}{r|}{45.00} \\ \hline
+    Copias &  &  \multicolumn{1}{r|}{90.00} \\ \hline
+    Adquisición de bibliografia  &  & \multicolumn{1}{r|}{400.00} \\ \hline
+    Empastados &  \multicolumn{1}{r|}{30.00}  & \multicolumn{1}{r|}{90.00} \\ \hline
+    Transporte &    & \multicolumn{1}{r|}{100.00} \\ \hline
+    Corrector de estilo &    & \multicolumn{1}{r|}{300.00} \\ \hline
+    Asesor estadístico &    & \multicolumn{1}{r|}{300.00} \\ \hline
+    Servicios (Internet) & \multicolumn{1}{r|}{80.00} & \multicolumn{1}{r|}{240.00} \\ \hline
+    Elaboración de software   &  & \multicolumn{1}{r|}{23 100.00} \\ \hline
+    Aplicación de instrumentos  & \multicolumn{1}{r|}{300.00} & \multicolumn{1}{r|}{300.00} \\ \hline
+    \textbf{TOTAL}  &  & \multicolumn{1}{r|}{25 665.00} \\ \hline
   \end{tabular}
+  \caption{Presupuesto}
+  \label{t:presupuesto}
 \end{table}
 
 \section{Matriz de consistencia}
