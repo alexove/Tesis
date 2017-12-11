@@ -40,28 +40,6 @@
   {}% <numberless-entry-format>
   {\hfill\contentspage}
 
-%
-% Definimos  el   comando  \compilaCapitulo,  que   luego  se  utiliza
-% (opcionalmente) en config.tex. QuedarXa  mejor si tambiXn se definiera
-% en  ese fichero,  pero por  el modo  en el  que funciona  eso  no es
-% posible. Puedes consultar la documentaciXn de ese fichero para tener
-% mXs  informaciXn. Definimos tambiXn  \compilaApendice, que  tiene el
-% mismo  cometido, pero  que se  utiliza para  compilar  Xnicamente un
-% apXndice.
-%
-%
-% Si  queremos   compilar  solo   una  parte  del   documento  podemos
-% especificar mediante  \includeonly{...} quX ficheros  son los Xnicos
-% que queremos  que se incluyan.  Esto  es Xtil por  ejemplo para sXlo
-% compilar un capXtulo.
-%
-% El problema es que todos aquellos  ficheros que NO estXn en la lista
-% NO   se  incluirXn...  y   eso  tambiXn   afecta  a   ficheros  de
-% la plantilla...
-%
-% Total,  que definimos  una constante  con los  ficheros  que siempre
-% vamos a querer compilar  (aquellos relacionados con configuraciXn) y
-% luego definimos \compilaCapitulo.
 \newcommand{\ficherosBasicosTeXiS}{%
 TeXiS/TeXiS_pream,TeXiS/TeXiS_cab,TeXiS/TeXiS_bib,TeXiS/TeXiS_cover,%
 TeXiS/TeXiS_part%
