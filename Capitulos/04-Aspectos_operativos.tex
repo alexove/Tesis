@@ -4,7 +4,6 @@
 \chapter{Aspectos operativos}
 \section{Cronograma}
 El cronograma planteado se puede ver en la figura \ref{fig:cronograma}
-
 \begin{figure}[h]
     \centering
     \captionsetup{justification=centering}
@@ -14,11 +13,13 @@ El cronograma planteado se puede ver en la figura \ref{fig:cronograma}
     \begin{ganttchart}[
       hgrid=true,
       vgrid={*{11}{black, dotted},*1{black},*3{black, dotted}},
-      y unit chart=0.7cm
+      x unit=0.7cm,
+            y unit title=0.7cm,
+            y unit chart=0.8cm,
+            bar label node/.style={text width=4cm,align=left,font=\scriptsize\RaggedLeft,anchor=east},
     ]{1}{16}
       \ganttset{bar height=.6}
-      \ganttset{bar/.append style={fill=lightgray}} %[bar/.append style={fill=blue}]
-
+      \ganttset{bar/.append style={fill=lightgray}}
       \gantttitle{2017}{12}
       \gantttitle{2018}{4} \\
       \gantttitlelist{1,...,12,1,2,3,4}{1} \\
@@ -36,7 +37,7 @@ El cronograma planteado se puede ver en la figura \ref{fig:cronograma}
       \ganttbar{Análisis de datos}{7}{8} \\
       \ganttbar{Redacción del primer borrador}{9}{12} \\
       \ganttbar{Redacción del informe final}{10}{12} \\
-      \ganttbar{Presentación del informe final}{13}{14} \\
+      \ganttbar{Presentación del informe final}{14}{15} \\
       \ganttbar{Sustentación}{16}{16}
     \end{ganttchart}
     %----
