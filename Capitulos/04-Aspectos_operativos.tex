@@ -10,10 +10,10 @@ El cronograma planteado se puede ver en la figura \ref{fig:cronograma}
     \begin{ganttchart}[
       hgrid=true,
       vgrid={*{11}{black, dotted},*1{black},*3{black, dotted}},
-      x unit=0.7cm,
-      y unit title=0.7cm,
-      y unit chart=0.8cm,
-      bar label node/.style={text width=4cm,align=left,font=\scriptsize\RaggedLeft,anchor=east},
+      x unit=0.5cm,
+      y unit title=0.8cm,
+      y unit chart=0.9cm,
+      bar label node/.style={text width=7cm,align=left,font=\footnotesize\RaggedLeft,anchor=east},
     ]{1}{16}
       \ganttset{bar height=.6}
       \ganttset{bar/.append style={fill=lightgray}}
@@ -201,24 +201,101 @@ T-Student o Test-T}}, ya que es la que más se adecua a nuestro escenario.
 La matriz de instrumentos de este trabajo se muestran en la tabla \ref{t:instrumentos}
 
 \begin{sidewaystable}[htbp]
-  \fontsize{11}{11}
+  \footnotesize
 \centering
 \caption{Matriz de instrumentos}
 \label{t:instrumentos}
-\begin{tabular}{|p{2.3cm}|p{4cm}|p{4cm}|p{3cm}|p{3cm}|p{3cm}|}
+\begin{tabular}{|p{2.3cm}|p{3.5cm}|p{2.5cm}|p{5cm}|p{4cm}|p{3cm}|}
 \hline
 \thead{Variable} & \thead{Dimensiones} & \thead{Indicadores} & \thead{Items o reactivos} & \thead{Escala valorativa} & \thead{Instrumentos} \\ \hline
-\multirow{10}{3cm}{Gestión empresarial} & \multirow{3}{4cm}{Producción (funciones de seguridad y técnicas)} & Productividad &  &  & Ficha de trabajo \\ \cline{3-6}
- &  & Eficacia &  &  & Ficha de trabajo \\ \cline{3-6}
- &  & Eficiencia &  &  & Ficha de trabajo \\ \cline{2-6}
- & \multirow{4}{4cm}{Comercialización (función comercial)} & Inventario &  &  & Ficha de trabajo \\ \cline{3-6}
- &  & Ventas &  &  & Ficha de trabajo \\ \cline{3-6}
- &  & Cobranzas &  &  & Ficha de trabajo \\ \cline{3-6}
- &  & Relación con clientes &  &  & Encuesta \\ \cline{2-6}
- & \multirow{3}{4cm}{Administración (funciones contables y financieras)} & Liquidez &  &  & Ficha de trabajo \\ \cline{3-6}
- &  & Endeudamiento &  &  & Ficha de trabajo \\ \cline{3-6}
- &  & Estados financieros &  &  & Ficha de trabajo \\ \hline
+\multirow{35}{3cm}{Gestión empresarial} & \multirow{12}{3.5cm}{Producción (funciones de seguridad y técnicas)}
+    & Productividad &
+    \begin{enumerate}[nosep]
+      \item Costo total de insumos utilizados.
+      \item Valor total de las unidades producidas.
+    \end{enumerate}
+    & \begin{enumerate}[nosep]
+      \item Moneda (S/.).
+      \item Moneda (S/.).
+    \end{enumerate} & Ficha de trabajo \\ \cline{3-6}
+ &  & Eficacia &
+   \begin{enumerate}[nosep]
+     \item Resultado alcanzado.
+     \item Resultado esperado.
+   \end{enumerate}
+  & \begin{enumerate}[nosep]
+    \item Numerico
+    \item Numerico
+  \end{enumerate} & Ficha de trabajo \\ \cline{3-6}
+ &  & Eficiencia &
+ \begin{enumerate}[nosep]
+   \item Tiempo invertido.
+   \item Coste estimado.
+   \item Tiempo previsto.
+ \end{enumerate} &
+\begin{enumerate}[nosep]
+  \item Numerico (horas).
+  \item Moneda (S/.).
+  \item Numerico (horas).
+\end{enumerate} & Ficha de trabajo \\ \cline{2-6}
+ & \multirow{10}{2.5cm}{Comercialización (función comercial)}
+ & Inventario &
+ \begin{enumerate}[nosep]
+   \item Ventas a precio de coste.
+   \item Existencias media.
+ \end{enumerate}
+  & \begin{enumerate}[nosep]
+    \item Moneda (S/.).
+    \item Numerico.
+  \end{enumerate} & Ficha de trabajo \\ \cline{3-6}
+ &  & Ventas &
+ \begin{enumerate}[nosep]
+   \item Ventas totales del mes.
+ \end{enumerate} &
+ \begin{enumerate}[nosep]
+   \item Moneda (S/.).
+ \end{enumerate} & Ficha de trabajo \\ \cline{3-6}
+ &  & Relación con los clientes &
+ \begin{enumerate}[nosep]
+   \item Grado de satisfacción del cliente.
+ \end{enumerate} &
+ \begin{enumerate}[nosep]
+   \item Medida en escala de 0 a 20.
+ \end{enumerate} & Encuesta \\ \cline{2-6}
+ & \multirow{12}{4cm}{Administración (funciones contables y financieras)}
+ & Liquidez &
+ \begin{enumerate}[nosep]
+   \item Activo corriente.
+   \item Pasivo corriente.
+ \end{enumerate} &
+ \begin{enumerate}[nosep]
+   \item Moneda (S/.).
+   \item Moneda (S/.).
+ \end{enumerate} & Ficha de trabajo \\ \cline{3-6}
+ & & Endeudamiento &
+ \begin{enumerate}[nosep]
+   \item Pasivo total con terceros.
+   \item Activo total.
+ \end{enumerate} &
+ \begin{enumerate}[nosep]
+   \item Moneda (S/.).
+   \item Moneda (S/.).
+ \end{enumerate} & Ficha de trabajo \\ \cline{3-6}
+ & & Estados financieros &
+ \begin{enumerate}[nosep]
+   \item Balance General.
+   \item Estado de resultados.
+   \item Estado de flujo de efectivo.
+ \end{enumerate} &
+ \begin{enumerate}[nosep]
+   \item Moneda (S/.).
+   \item Moneda (S/.).
+   \item Moneda (S/.).
+ \end{enumerate} & Ficha de trabajo \\ \hline
 \end{tabular}
 \end{sidewaystable}
 
 \section{Instrumentos de recolección de datos}
+Como se mencionó en los capítulos anteriores serán dos los instrumentos a utilizar,
+la ficha de trabajo se puede observar en la figura \ref{f:ficha_trabajo} y la encuesta
+se puede ser observada en la figura \ref{f:encuesta}.
